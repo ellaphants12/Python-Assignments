@@ -147,22 +147,6 @@ body {
     font-weight: 500;
 }
 
-input[type="radio"]:checked + .size-buttons label {
-    background-color: #FFD700;
-}
-
-.prices {
-    margin: 20px 0;
-}
-
-.prices .price {
-    display: none;
-    font-size: 24px;
-    font-weight: 600;
-    color: #FFD700;
-    margin: 0;
-}
-
 /* Show price based on selected size */
 #small:checked ~ .prices .price.small {
     display: block;
@@ -192,6 +176,18 @@ input[type="radio"]:checked + .size-buttons label {
 /* Size button hover effect */
 .size-button:hover {
     background-color: #FFD700;
+}
+
+.prices {
+    margin: 20px 0;
+}
+
+.prices .price {
+    display: none;
+    font-size: 24px;
+    font-weight: 600;
+    color: #FFD700;
+    margin: 0;
 }
 
 /* Branches Section */
