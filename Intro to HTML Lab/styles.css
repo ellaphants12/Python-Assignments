@@ -49,10 +49,12 @@ body {
     padding: 120px 80px 60px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     min-height: 80vh;
     background-color: #3C1F0B;
     gap: 80px;
+    max-width: 1400px;
+    margin: 0 auto;
 }
 
 .hero-content {
@@ -401,7 +403,7 @@ th {
     width: 100%;
     border-collapse: collapse;
     margin-top: 40px;
-    background-color: #2A1507;
+    background-color: #3C1F0B;
     border-radius: 15px;
     overflow: hidden;
 }
@@ -410,7 +412,7 @@ th {
 .products-table td {
     padding: 20px;
     text-align: left;
-    border-bottom: 1px solid #3C1F0B;
+    border-bottom: 1px solid #2A1507;
 }
 
 .products-table th {
@@ -418,6 +420,15 @@ th {
     color: #FFD700;
     font-weight: 600;
     font-size: 18px;
+}
+
+.products-table tr {
+    background-color: #3C1F0B;
+    transition: background-color 0.3s;
+}
+
+.products-table tr:hover {
+    background-color: #4B2F0A;
 }
 
 .products-table img {
@@ -490,4 +501,4 @@ th {
 
 .back-button:hover {
     color: #FFD700;
-} 
+}
